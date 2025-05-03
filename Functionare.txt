@@ -1,0 +1,2 @@
+Pentru folosirea aplicatiei, se lanseaza in MATLAB functia Curaj.m
+Pentru alte functii (FMill,Casteljau, etc), se apeleaza numele acestora separat in linia de comanada
