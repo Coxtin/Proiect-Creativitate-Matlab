@@ -1,0 +1,30 @@
+figure;
+t = 0:0.01:1;
+title('Curaj, cainele cel fricos cu 2 puncte de control schimbate ale urechii (ginput)');
+hold on 
+axis ([-6 6 -6 6]);
+g = ginput(2);
+g = g';
+b = [-1.1, g(1,1), g(1,2), -5.3, -6.1, -3.4, -3.65, -1.22, -1.27; 3.8, g(2,1), g(2,2), 5.2, 4.8, 2.8, 3.7, 5, 3.7];
+f = ReprezentareCurbaBezier(t,b);
+plot(b(1,:),b(2,:),'r-');
+plot(f(1,:),f(2,:),'k','LineWidth',1.5);
+Contur_dreapta_cap;
+Mana_dreapta;
+Coada;
+Picior_stanga;
+Picior_dreapta;
+Contur_dreapta;
+Bot_si_nas;
+Contur_stanga_cap;
+Spranceana_stanga_ureche;
+Ochi_dreapta;
+Spranceana_dreapta;
+Ochi_stanga;
+Mana_stanga
+Gura;
+Pete_maini_picioare;
+Interior_ochi;
+Pete_corp;
+Mustati;
+Alunite;
